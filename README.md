@@ -1,5 +1,28 @@
-# Vue 3 + Vite
+# Welcome to my first project using Vue!!  
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is inspired on a YouTube video by [Tyler Potts](https://youtu.be/YwUvSa9Ckqo). The idea is to implement a database and add more functionalities. But let's do it easy, hehe.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 How to Run the Project  
+
+### 📋 Prerequisites  
+- **Node.js** installed (v16.x or higher recommended).  
+  - Download: [Node.js Official Website](https://nodejs.org/)  
+- **Git** (to clone the repository).  
+
+### 🛠️ Installation  
+
+1. **Clone the repository**:  
+   ```bash
+   git clone git@github.com:JoaoNahid/notebook.git
+   cd notebook
+   ```
+
+2. **Install dependencies**:  
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:  
+   ```bash
+   npm run dev
+   ```
