@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer components {
+  .button {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer;
+  }
+
+  .note-list-item {
+    @apply p-4 border-b border-gray-700 hover:bg-gray-600 flex justify-between rounded cursor-pointer 
+    gap-4 items-center;
+  }
+}
