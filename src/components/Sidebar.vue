@@ -18,7 +18,7 @@ const props = defineProps({'active-note': String, 'notes': Array});
                 >
                     <span>{{ note.title }}</span>
                     <button
-                        @click="evt => $emit('delete-note', {id: note.id, evt})"
+                        @click.prevent="$emit('delete-note', note.id)"
                         class="text-red-500 cursor-pointer"
                     >
                         Delete
