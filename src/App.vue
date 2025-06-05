@@ -36,10 +36,9 @@ function setActiveNote(id) {
 }
 
 // Delete note
-function deleteNote(id, evt) {
-    evt.stopPropagation();
+function deleteNote(id) {
     let noteId = notes.value.findIndex(note => note.id === id);
-    notes.value.slice(noteId, 1);
+    notes.value.splice(noteId, 1);
 
     activeNote.value = null;
     inputTitle.value = '';
